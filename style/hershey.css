@@ -72,7 +72,7 @@ article h2 a:hover {
 	color: #35000c;
 }
 
-#topnav ul {
+header nav ul {
 	color: white;
 	text-align: center;
 	background-color: #35000c;
@@ -81,22 +81,22 @@ article h2 a:hover {
 	margin: 5px 0 10px 0;
 }
 
-#topnav li {
+header nav li {
 	display: inline-block;
 	float: left;
 	padding: .8em .8em;
 	border-right: 5px #b69871 solid;
 }
 
-#topnav a:link {
+header nav a:link {
 	color: white;
 }
 
-#topnav a:hover {
+header nav a:hover {
 	color: #b69871;
 }
 
-#sidenav {
+main nav {
 	color: #35000c;
 	font-weight: bold;
 	font-size: 1.3em;
@@ -111,16 +111,16 @@ article h2 a:hover {
 	border-left: 10px #b69871 solid;
 }
 
-#sidenav li {
+main nav li {
 	border-bottom: 5px #b69871 solid;
 }
 
-#sidenav a:link {
+main nav a:link {
 	color: #35000c;
 	line-height: 1.7em;
 }
 
-#sidenav a:hover {
+main nav a:hover {
 	color: white;
 }
 
