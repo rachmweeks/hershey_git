@@ -54,7 +54,7 @@ article img {
 }
 
 article h2 {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Courgette', cursive;
 	font-size: 1.8em;
 	margin: 0 0 5px 0;
 }
@@ -145,7 +145,7 @@ main nav a:hover {
 #banner {
 	color: white;
 	text-align: center;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Courgette', cursive;
 	font-size: 3em;
 	line-height: 2em;
 	background-color: #f59e3d;
