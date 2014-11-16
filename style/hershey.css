@@ -37,11 +37,6 @@ main {
 	position: relative;
 }
 
-section {
-	background-color: #f0e7da;
-	padding: 10px;
-}
-
 section h2 {
 	font-size: 2.5em;
 	color: #35000c;
@@ -72,7 +67,7 @@ article h2 a:hover {
 	color: #35000c;
 }
 
-#topnav ul {
+header nav ul {
 	color: white;
 	text-align: center;
 	background-color: #35000c;
@@ -81,22 +76,22 @@ article h2 a:hover {
 	margin: 5px 0 10px 0;
 }
 
-#topnav li {
+header nav li {
 	display: inline-block;
 	float: left;
 	padding: .8em .8em;
 	border-right: 5px #b69871 solid;
 }
 
-#topnav a:link {
+header nav a:link {
 	color: white;
 }
 
-#topnav a:hover {
+header nav a:hover {
 	color: #b69871;
 }
 
-#sidenav {
+main nav {
 	color: #35000c;
 	font-weight: bold;
 	font-size: 1.3em;
@@ -111,26 +106,40 @@ article h2 a:hover {
 	border-left: 10px #b69871 solid;
 }
 
-#sidenav li {
+main nav li {
 	border-bottom: 5px #b69871 solid;
 }
 
-#sidenav a:link {
+main nav a:link {
 	color: #35000c;
 	line-height: 1.7em;
 }
 
-#sidenav a:hover {
+main nav a:hover {
 	color: white;
 }
 
 #holiday {
-	text-indent: -9999px;
 	background-image: url(../img/fall.jpg);
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 400px;
 	margin: 10px 0 10px 0;
+	font-size: 2em;
+	font-family: 'Francois One', sans-serif;
+	position: relative;
+}
+
+#holiday a:link {
+	color: white;
+	padding: 10px;
+	position: absolute;
+	bottom: 10px;
+}
+
+#recipe {
+	background-color: #f0e7da;
+	padding: 10px;
 }
 
 #banner {
@@ -152,14 +161,13 @@ article h2 a:hover {
 }
 
 #pumpkin {
-	text-indent: -9999px;
-	background-image: url(../img/pumpkin.png);
+	background-image: url();
 	background-repeat: no-repeat;
-	width: 354px;
-	height: 500px;
+	width: 85px;
+	height: 120px;
 	position: fixed;
 	top: 0px;
-	right: 20px;
+	right: 250px;
 	z-index: 3;
 }
 
